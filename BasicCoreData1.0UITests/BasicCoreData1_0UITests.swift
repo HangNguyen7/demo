@@ -52,6 +52,8 @@ class BasicCoreData1_0UITests: XCTestCase {
         app.typeText("ff")
         app.otherElements.containing(.navigationBar, identifier:"Core Data 1.0").children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .table).element.tap()
     }
+}
+}
     func demotest01(){
         let app = XCUIApplication()
         app.scrollViews.otherElements.icons["BasicCoreData1.0"].tap()
@@ -61,5 +63,5 @@ class BasicCoreData1_0UITests: XCTestCase {
         
 }
 }
-
+}
 
